@@ -1,0 +1,51 @@
+
+body{
+    margin: 0;
+}
+
+
+.App{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h2{
+margin: 0;   
+}
+
+.card{
+    
+    background-color: aliceblue;
+    padding: 30px;
+   width: min(600px, 60%);
+   border-radius: 10px;
+   box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.349);
+   position: relative;
+
+    }
+
+.Title-card{
+    font-size: 25px;
+    text-align: center;
+}
+.card-btn{
+    display: block;
+    width: 40px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: none;
+    color: aliceblue;
+    position: relative;
+    left: 100%;
+    transform: translateX(-100%);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.533);
+    
+}
+
+.card-btn:active{
+    box-shadow: 0 0 0 0 #000;
+    transition: box-shadow 200ms ease;
+}
