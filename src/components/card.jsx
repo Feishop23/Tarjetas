@@ -11,8 +11,6 @@ const styleColor = {
 
 }
 
-
-
   return (
     <article className='card' style={styleColor}>
     <h2 className='Title-card'>{userRandom.quote}</h2>

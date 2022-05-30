@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Card from './components/Card'
 import users from './json/users.json'
-
+ 
 const arrayColor = [
 '#EF277E',
 '#EAAC13',
